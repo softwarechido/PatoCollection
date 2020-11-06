@@ -10,14 +10,12 @@ import java.util.Vector;
 import com.softwarechido.app.patocollection.dominio.Color;
 import com.softwarechido.app.patocollection.dominio.Pato;
 
-/**
- * Hello world!
- *
- */
 public class App 
 {
 	
 	public static void main(String[] args) {
+		
+		System.out.println("Introducción al Collection Framework");
 				
 		Pato myPato1 = new Pato("Lucas", 8.5f, Color.NEGRO);
 		Pato myPato2 = new Pato("Donald", 9.5f, Color.BLANCO);
